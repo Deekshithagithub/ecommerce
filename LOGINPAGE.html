@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<html>
+
+<head>
+    <title>LOGIN PAGE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            background: url("logo/download (3).jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 100vh;
+        }
+
+        .login {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            border: 1px solid rgba(255, 255, 255, .5);
+            border-radius: 20px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(15px);
+
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #fff;
+            text-align: center;
+        }
+
+        .inputbox {
+            position: relative;
+            width: 310px;
+            margin: 25px 0;
+            overflow: hidden;
+            /* border-bottom: 2px solid #fff; */
+            border-radius: 50px;
+            border: 1px solid white;
+        }
+
+        .inputbox label {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            font-size: 1em;
+            color: white;
+            pointer-events: none;
+            transition: -5s;
+
+
+        }
+
+
+
+        .inputbox input {
+            width: 100%;
+            height: 50px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 10px;
+            padding: 0 35px 0 5px;
+            font-size: large;
+
+        }
+
+        .remember {
+            margin: -15px 0 15px;
+            font-size: .9em;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .remember label input {
+            margin-right: 3px;
+        }
+
+        .remember a {
+            columns: #fff;
+            text-decoration: none;
+        }
+
+        .remember a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            width: 100%;
+            height: 40px;
+            background: #fff;
+            border: none;
+            outline: none;
+            border-radius: 40px;
+            cursor: pointer;
+            font-size: 1em;
+            color: black;
+            font-weight: 500;
+        }
+
+        .register {
+            font-size: -9em;
+            color: #fff;
+            text-align: center;
+            margin: 25px 0 10px;
+        }
+
+        .register p a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .register p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+    <section>
+        <div class="login">
+            <form action="" >
+
+                <h2>Sign In</h2>
+
+                <div class="inputbox">
+                    <input type="email" required placeholder="Email">
+
+                </div>
+                <div class="inputbox">
+                    <input type="password" required placeholder="Password">
+
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox">
+                        Remember me</label>
+                    <a href="#" style="color: #fff;">Forgot password?</a>
+
+                </div>
+                <button type="submit"> <a link href="index.html"> Login</button></a>
+
+
+                 <div class="register">
+                    <p>Don't have an account?
+                        <a link href="REGISTRATIONFORM.html">Register here</a>
+                    </p>
+                </div>
+            </form>
+            
+        </div>
+    </section>
+</body>
+
+
+</html>
